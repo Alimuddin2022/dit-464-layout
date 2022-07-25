@@ -1,0 +1,230 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+ }
+/* Header Part */
+header {
+    width: 100%;
+    float: left;
+    background-color: blueviolet;
+    color: #ffdd99;
+
+}
+nav { 
+    width: 100%;
+    float: left;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+}
+.menu-part {
+    width: 50;
+    float: left;
+
+      
+}
+.menu-part ul {
+   text-align: end;
+
+}
+.menu-part li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu-part a {
+    color: rgb(237, 144, 223);
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.hero-part {
+width: 600px;
+margin: 0 auto;
+
+}
+.hero-part h2 {
+padding-top: 100px;
+color: #fff;
+text-align: center;
+font-size: 25px;
+}
+.hero-part button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #eb7d4b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0px 5px #eb7d4b;    
+}
+
+section{
+    padding: 60px 0px;
+}
+.heading{
+    color: #3c4761;
+    font-family: 40px;
+    letter-spacing: 4px;
+}
+.sub-heading {
+    color: rgb(237, 144, 223);
+    font-size: 16px;
+}
+p{
+    color: #3c4761;
+}
+.pg{
+    font-size: 18px;
+}
+.underline{
+    display: block;
+    border-top: 2px solid rgba(0, 0, 0, 0.329);
+    width: 5%;
+    margin: 15px auto;
+
+}
+/*layout Css */
+.container {
+    width: 90%;
+    margin: auto;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12, .row {
+    width: 100%;
+    float: left;
+}
+/*Service Section */
+#service{
+    text-align: center;
+    background-color: #ffffff;
+    background: #9ff1e3
+    
+}
+/* Team Section */
+#team{
+    text-align: center;
+    background-color:  #e7f1f8;
+}
+
+/* skill Section */
+#skill{
+    text-align: center;
+}
+/* Portfolio Section */
+#Portfolio {
+    background-color: #ffdd99;
+    padding: 100px 0px;
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.portfolio-header {
+    text-align: center;
+}
+.portfolio-header hl{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.329);
+    padding-bottom: 5px;
+    font-size: 45px;
+}
+.underline{
+    border-top: 4px solid rgba(0, 0, 0, 0.329);
+    display: block;
+    width: 60px;
+    margin: auto;
+}
+.portfolio-header p{
+    padding: 15px;
+    padding-bottom: 30px;
+    }
+.portfolio-menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+.portfolio-menu li {
+    display: inline-block;
+    padding-left: 5px;
+}
+.portfolio-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ebc985;
+    padding: 3px 20px;
+    color: black;
+    border-radius: 3px;
+    font-size: 23px;
+}
+.laptop{
+    padding-top: 80px;
+}
+.laptop-img{
+    width: 50%;
+    float: left;
+}
+
